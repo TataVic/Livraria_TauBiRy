@@ -1,8 +1,9 @@
 # Livraria TauBiRy
 
- ##📚 Cátalogo de Livro
+## 📚 Cátalogo de Livro
 Projeto em NET MAUI e a linguagem C# em conjunto com o banco de dados SQLite, que visa atender a proposta de criar um app que ofereça uma maneira organizada de catalogar coleções de livros, fornecendo informações detalhadas sobre cada obra.
-## Requisitos:
+
+## ✏️ Requisitos:
 - Cadastro de Usuários e Proteção de acesso ao App através de um PIN gerado no cadastro.
 - Criar, Listar, Editar e Excluir Livros.
 - Cadastro de Categorias (exemplo: Ficção, romance, mistério, etc.).
