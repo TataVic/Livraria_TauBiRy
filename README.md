@@ -15,7 +15,7 @@ Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
 
 ### 🎮 Desenvolvimento
 
-###✒️ Equipe:
+### ✒️ Equipe:
 - [Bianca](https://github.com/BiaCNtt)
 - [Ryhan](https://github.com/ryhanclayver)
 - [Tauani](https://github.com/TataVic) 
