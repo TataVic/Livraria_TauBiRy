@@ -15,7 +15,7 @@ namespace TauBiRy
         public required string Titulo { get; set; }
         public required string Autor { get; set; }
         public required string Isbn { get; set; }
-        public required string Categoria { get; set; } // chave estrangeria da tabela categoria
+        //public required string Categoria { get; set; } // chave estrangeria da tabela categoria
         public required string Idioma { get; set; }
         public required string Editora { get; set; }
         public required DateTime Anolancamento { get; set; }
