@@ -15,6 +15,7 @@ Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
 ### 🔨 Implantação 
 
 ### 🎮 Desenvolvimento em MVC (Model-View-Controller)
+```
 /TauBiRy
     /Models
         User.cs
@@ -45,7 +46,7 @@ Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
     MainPage.xaml
     MainPage.xaml.cs
     Program.cs
-
+```
 
 ### ✒️ Equipe:
 - [Bianca](https://github.com/BiaCNtt)
