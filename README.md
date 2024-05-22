@@ -14,7 +14,38 @@ Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
 
 ### 🔨 Implantação 
 
-### 🎮 Desenvolvimento
+### 🎮 Desenvolvimento em MVC (Model-View-Controller)
+/TauBiRy
+    /Models
+        User.cs
+        Book.cs
+        AuthenticationService.cs (ainda não)
+        BookService.cs (ainda não)
+    /Views
+        LoginPage.xaml
+        LoginPage.xaml.cs
+        BookListPage.xaml
+        BookListPage.xaml.cs
+        BookDetailPage.xaml
+        BookDetailPage.xaml.cs
+        BookEditPage.xaml
+        BookEditPage.xaml.cs
+    /Controllers
+        LoginController.cs
+        BookController.cs
+    /Resources
+        /Styles
+        /Images
+    /Services
+        ApiService.cs  (ainda não)
+    /Helpers
+        Utility.cs
+    App.xaml
+    App.xaml.cs
+    MainPage.xaml
+    MainPage.xaml.cs
+    Program.cs
+
 
 ### ✒️ Equipe:
 - [Bianca](https://github.com/BiaCNtt)
