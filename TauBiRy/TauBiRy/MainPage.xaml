@@ -5,7 +5,20 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <ScrollView>
-        <VerticalStackLayout />
+        <VerticalStackLayout>
+
+
+            <Grid ColumnDefinitions="*, *" RowDefinitions="Auto">
+                <Label Grid.Column="0" Text="ID" />
+                <Label Grid.Column="1" Text="Titulo" />
+            </Grid>
+
+
+
+
+
+
+        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
