@@ -31,6 +31,8 @@ Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
         BookDetailPage.xaml.cs
         BookEditPage.xaml
         BookEditPage.xaml.cs
+        BookCreatePage.xaml
+        BookCreatePage.xaml.cs      
     /Controllers
         LoginController.cs
         BookController.cs
