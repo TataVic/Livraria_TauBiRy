@@ -12,36 +12,60 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TauBiRy
-build_property.ProjectDir = C:\Users\Bianc\source\TauBiRy\TauBiRy\TauBiRy\
+build_property.ProjectDir = C:\Users\Bianc\source\Repos\TauBiRy\TauBiRy\TauBiRy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Bianc/source/TauBiRy/TauBiRy/TauBiRy/App.xaml]
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Bianc/source/TauBiRy/TauBiRy/TauBiRy/AppShell.xaml]
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Bianc/source/TauBiRy/TauBiRy/TauBiRy/MainPage.xaml]
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Bianc/source/TauBiRy/TauBiRy/TauBiRy/Resources/Styles/Colors.xaml]
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Bianc/source/TauBiRy/TauBiRy/TauBiRy/Resources/Styles/Styles.xaml]
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Views/BookCreatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.BookCreatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookCreatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookCreatePage.xaml
+
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Views/BookDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.BookDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookDetailPage.xaml
+
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Views/BookEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.BookEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookEditPage.xaml
+
+[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Views/BookListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.BookListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookListPage.xaml

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FHuyYerL4JGNncFzU9GqDEKbG9qM3NBfAIkneqU6wFnyPdvoo/hrOFOs87wCthnDCUqIS7i24i9CRIN7HbMJng==",
+  "dgSpecHash": "byFswNtdelxS4haIgTx3erBf8r4w1eaMBsJz8L4l7aJD/Tt8r1G4lVyGoEVIkYsDKdXmuhRrf5wxFNDuMM+9lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bianc\\source\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
+  "projectFilePath": "C:\\Users\\Bianc\\source\\Repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bianc\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Bianc\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

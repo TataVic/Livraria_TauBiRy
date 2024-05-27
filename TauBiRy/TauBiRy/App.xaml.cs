@@ -1,4 +1,6 @@
-﻿namespace TauBiRy
+﻿using TauBiRy.Views;
+
+namespace TauBiRy
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new BookListPage());
         }
     }
 }
