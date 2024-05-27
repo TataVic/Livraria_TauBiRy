@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TauBiRy.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="LoginPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <VerticalStackLayout>
+                <Label
+                    FontSize="28"
+                    HorizontalTextAlignment="Center"
+                    Text="Bem-Vindo" />
+                <Label
+                    FontSize="20"
+                    HorizontalTextAlignment="Center"
+                    Text="Fazer Login na sua conta" />
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame
+                    BorderColor="White"
+                    CornerRadius="25"
+                    HasShadow="True"
+                    HeightRequest="55"
+                    WidthRequest="55"
+                    ZIndex="1">
+                    <Image
+                        HeightRequest="20"
+                        Source="user.png"
+                        WidthRequest="20" />
+                </Frame>
+                <Frame
+                    Padding="0"
+                    BorderColor="White"
+                    HasShadow="True"
+                    HeightRequest="45"
+                    HorizontalOptions="FillAndExpand">
+                    <Entry
+                        Margin="20,0,0,0"
+                        Keyboard="Email"
+                        Placeholder="Usuário"
+                        VerticalOptions="Center" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame
+                    BorderColor="White"
+                    CornerRadius="25"
+                    HasShadow="True"
+                    HeightRequest="55"
+                    WidthRequest="55"
+                    ZIndex="1">
+                    <Image
+                        HeightRequest="20"
+                        Source="cadeado.png"
+                        WidthRequest="20" />
+                </Frame>
+                <Frame
+                    Padding="0"
+                    BorderColor="White"
+                    HasShadow="True"
+                    HeightRequest="45"
+                    HorizontalOptions="FillAndExpand">
+                    <Entry
+                        Margin="20,0,0,0"
+                        IsPassword="True"
+                        Placeholder="Senha"
+                        VerticalOptions="Center" />
+                </Frame>
+            </StackLayout>
+
+            <Button
+                x:Name="Logar"
+                BackgroundColor="BlueViolet"
+                Clicked="Logar_Clicked"
+                CornerRadius="25"
+                HorizontalOptions="Center"
+                Text="Login"
+                WidthRequest="120" />
+            <StackLayout
+                HorizontalOptions="Center"
+                Orientation="Horizontal"
+                Spacing="5">
+                <Label Text="Não tem conta ?" />
+                <Label
+                    Text="Criar conta"
+                    TextColor="Gray"
+                    TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
