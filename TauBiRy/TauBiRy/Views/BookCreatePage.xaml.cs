@@ -37,7 +37,7 @@ public partial class BookCreatePage : ContentPage
             Anolancamento.Date = livroAtual.Anolancamento;
 
             // Definir a seleção do Picker com base no valor do livro
-            Categoria.SelectedItem = livroAtual.Categoria;
+            //Categoria.SelectedItem = livroAtual.Categoria;
         }
     }
 
@@ -51,7 +51,7 @@ public partial class BookCreatePage : ContentPage
                 {
                     Autor = Autor.Text,
                     Titulo = Titulo.Text,
-                    Categoria = Categoria.SelectedItem.ToString(),
+                    //Categoria = Categoria.SelectedItem.ToString(),
                     Isbn = Isbn.Text,
                     Idioma = Idioma.Text,
                     Editora = Editora.Text,

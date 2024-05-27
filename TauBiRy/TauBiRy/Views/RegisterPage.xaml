@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TauBiRy.Views.RegisterPage"
-             Title="RegisterPage">
+<ContentPage
+    x:Class="TauBiRy.Views.RegisterPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="RegisterPage">
     <VerticalStackLayout>
-       
+        <Entry x:Name="Nome" Keyboard="Text" Placeholder="Digite seu Nome e Sobrenome"/>
+        <Entry x:Name="Email" Keyboard="Email" Placeholder="Digite seu melhor Email"/>
+        <Entry x:Name="Telefone" Keyboard="Telephone" Placeholder="Telefone"/>
+        <Entry x:Name="Senha" IsPassword="True" Placeholder="Senha" />
     </VerticalStackLayout>
 </ContentPage>

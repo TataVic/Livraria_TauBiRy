@@ -47,7 +47,7 @@ public partial class BookEditPage : ContentPage
         Livro livroAtual = new Livro();
         livroAtual.Autor = Autor.Text;
         livroAtual.Titulo = Titulo.Text;
-        livroAtual.Categoria = Categoria.SelectedItem.ToString();
+        //livroAtual.Categoria = Categoria.SelectedItem.ToString();
         livroAtual.Isbn = Isbn.Text;
         livroAtual.Idioma = Idioma.Text;
         livroAtual.Editora = Editora.Text;
