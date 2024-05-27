@@ -13,12 +13,15 @@ namespace TauBiRy
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
+
         public string Titulo { get; set; }
         public string Autor { get; set; }
         public string Isbn { get; set; }
 
+       
+        [Indexed]
+        public int CategoriaId { get; set; }
 
-        public string Categoria { get; set; }
         public string Idioma { get; set; }
         public string Editora { get; set; }
         public DateTime Anolancamento { get; set; } = DateTime.MinValue;
