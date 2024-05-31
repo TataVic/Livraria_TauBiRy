@@ -35952,24 +35952,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tauani\\.nuget\\packages\\": {},
+    "C:\\Users\\Bianc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
+      "projectUniqueName": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
       "projectName": "TauBiRy",
-      "projectPath": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
-      "packagesPath": "C:\\Users\\Tauani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\obj\\",
+      "projectPath": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
+      "packagesPath": "C:\\Users\\Bianc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tauani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bianc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

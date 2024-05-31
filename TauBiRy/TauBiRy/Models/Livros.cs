@@ -18,9 +18,10 @@ namespace TauBiRy
         public string Autor { get; set; }
         public string Isbn { get; set; }
 
-       
+        // Use o ID da categoria como chave estrangeira
         [Indexed]
         public int CategoriaId { get; set; }
+        public string Categoria { get; set; }
 
         public string Idioma { get; set; }
         public string Editora { get; set; }

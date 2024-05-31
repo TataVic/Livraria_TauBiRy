@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TauBiRy.Views.BookListPage"
-             Title="Biblioteca Virtual">
+<ContentPage
+    x:Class="TauBiRy.Views.BookListPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Biblioteca Virtual">
     <ScrollView>
         <VerticalStackLayout>
             <HorizontalStackLayout>
                 <Button
-            x:Name="Cadastrar"
-            BackgroundColor="Brown"
-            Clicked="Cadastrar_Clicked"
-            Text="Cadastrar" />
-
+                    x:Name="Cadastrar"
+                    BackgroundColor="Brown"
+                    Clicked="Cadastrar_Clicked"
+                    Text="Cadastrar" />
+                <Button
+                    x:Name="Cadastrarcateg"
+                    BackgroundColor="Brown"
+                    Clicked="Cadastrarcategoria_Clicked"
+                    Text="Cadastrar categoria" />
             </HorizontalStackLayout>
             <Grid ColumnDefinitions="*, *, *, *,*" RowDefinitions="Auto">
                 <Label Grid.Column="0" Text="ID" />
@@ -24,9 +28,9 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid
-                    ColumnDefinitions="*, *, *, *, *,*"
-                    RowDefinitions="100"
-                    RowSpacing="100">
+                            ColumnDefinitions="*, *, *, *, *,*"
+                            RowDefinitions="100"
+                            RowSpacing="100">
                             <Label Text="{Binding Id}">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
@@ -49,10 +53,10 @@
                                 </Label.GestureRecognizers>
                             </Label>
                             <Button
-                        Grid.Column="4"
-                        Clicked="Btnvisualizar"
-                        CommandParameter="{Binding Id}"
-                        Text="Visualizar" />
+                                Grid.Column="4"
+                                Clicked="Btnvisualizar"
+                                CommandParameter="{Binding Id}"
+                                Text="Visualizar" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

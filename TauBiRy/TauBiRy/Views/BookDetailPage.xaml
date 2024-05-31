@@ -1,43 +1,59 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TauBiRy.Views.BookDetailPage"
-             Title="BookDetailPage">
+<ContentPage
+    x:Class="TauBiRy.Views.BookDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Sobre o livro">
 
-    <!--  pagina de cver os detalhes do livro e marcar como lido , nao lido , lendo  -->
+    <!--  página para ver os detalhes do livro e marcar como lido, não lido, lendo  -->
 
-    <!--  Lido (sim, não ou lendo), Avaliação Pessoal.  -->
     <ScrollView>
         <VerticalStackLayout>
-            <Label Text="Titulo" />
+            <Label Text="Título" />
             <Entry
                 x:Name="Titulo"
                 Margin="10"
-                Placeholder="Informe o titulo do livro" />
+                IsReadOnly="True"
+                Placeholder="Informe o título do livro" />
 
             <Label Text="Autor" />
-            <Entry x:Name="Autor" Margin="10" />
+            <Entry
+                x:Name="Autor"
+                Margin="10"
+                IsReadOnly="True" />
 
             <Label Text="ISBN" />
-            <Entry x:Name="Isbn" Margin="10" />
+            <Entry
+                x:Name="Isbn"
+                Margin="10"
+                IsReadOnly="True" />
 
             <Label Text="Idioma" />
-            <Entry x:Name="Idioma" Margin="10" />
+            <Entry
+                x:Name="Idioma"
+                Margin="10"
+                IsReadOnly="True" />
 
             <Label Text="Editora" />
-            <Entry x:Name="Editora" Margin="10" />
+            <Entry
+                x:Name="Editora"
+                Margin="10"
+                IsReadOnly="True" />
+
+            <Label Text="Categoria" />
+            <Entry
+                x:Name="Categoria"
+                Margin="10"
+                IsReadOnly="True" />
 
             <Label Text="Ano de lançamento" />
-            <DatePicker x:Name="Anolancamento" />
+            <DatePicker x:Name="Anolancamento" IsEnabled="False" />
 
             <Label Text="Avaliação Pessoal" />
             <Entry x:Name="avali" Margin="10" />
 
-            <Label Text="leitura" />
-            <Picker
-                x:Name="StatusPicker"
-                Title="Selecione o status de leitura"
-                SelectedIndexChanged="BtnSalvarAvi_Clicked">
+            <Label Text="Leitura" />
+            <Picker x:Name="StatusPicker" Title="Selecione o status de leitura">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Lendo</x:String>
@@ -61,20 +77,12 @@
                 Clicked="BtnEditar_Clicked"
                 Text="Editar" />
 
-
             <Button
                 x:Name="BtnExcluir"
                 Margin="50"
                 Padding="20"
                 Clicked="BtnExcluir_Clicked"
-                Text="Exluir" />
-
-            <!--<Button
-            x:Name="BtnVoltar"
-            Margin="50"
-            Padding="20"
-            Clicked="BtnVoltar_Clicked"
-            Text="Voltar" />-->
+                Text="Excluir" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

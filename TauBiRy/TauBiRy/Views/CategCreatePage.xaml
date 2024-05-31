@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TauBiRy.Views.CategCreatePage"
+             Title="CategCreatePage">
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Entry x:Name="TxtNomeCateg" Placeholder="Nome da categoria" />
+
+            <Entry x:Name="TxtDescricao" Placeholder="Descrição" />
+            <Button
+             x:Name="BtnsalvarCateg"
+             Clicked="BtnsalvarCateg_Clicked"
+             Text="Salvar" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

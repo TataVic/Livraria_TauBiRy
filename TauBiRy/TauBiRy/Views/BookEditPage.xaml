@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TauBiRy.Views.BookEditPage"
-             Title="BookEditPage">
+<ContentPage
+    x:Class="TauBiRy.Views.BookEditPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Editar Livro">
     <!--  pagina de cadastrar e editar os livros  -->
     <!--
-    Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
-    perguntar se o campo observação é na classe pessoa
--->
+        Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
+        perguntar se o campo observação é na classe pessoa
+    -->
     <ScrollView>
         <VerticalStackLayout>
             <Label Text="Titulo" />
             <Entry
-            x:Name="Titulo"
-            Margin="10"
-            Placeholder="Informe o titulo do livro" />
+                x:Name="Titulo"
+                Margin="10"
+                Placeholder="Informe o titulo do livro" />
 
             <Label Text="Autor" />
             <Entry x:Name="Autor" Margin="10" />
@@ -40,12 +41,11 @@
             <Label Text="Ano de lançamento" />
             <DatePicker x:Name="Anolancamento" />
             <Button
-            x:Name="BtnSalvar"
-            Margin="50"
-            Padding="20"
-            Clicked="BtnSalvar_Clicked" 
-            
-            Text="Salvar" />
+                x:Name="BtnSalvar"
+                Margin="50"
+                Padding="20"
+                Clicked="BtnSalvar_Clicked"
+                Text="Salvar" />
 
             <!--<Button
          x:Name="BtnVoltar"

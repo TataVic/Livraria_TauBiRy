@@ -1,5 +1,6 @@
 using SQLite;
 using System.Collections.ObjectModel;
+using TauBiRy.Models;
 
 namespace TauBiRy.Views;
 
@@ -15,7 +16,6 @@ public partial class BookListPage : ContentPage
         caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
         conexao = new SQLiteConnection(caminhoBD);
         conexao.CreateTable<Livro>();
-
         livros = new ObservableCollection<Livro>(conexao.Table<Livro>().ToList());
         CollectionViewControl.ItemsSource = livros;
 
@@ -31,8 +31,15 @@ public partial class BookListPage : ContentPage
     {
         livros.Clear();
         var livrosDoBanco = conexao.Table<Livro>().ToList();
+        var categorias = conexao.Table<Categoria>().ToList();
+
         foreach (var livro in livrosDoBanco)
         {
+            var categoria = categorias.FirstOrDefault(c => c.Id == livro.CategoriaId);
+            if (categoria != null)
+            {
+                livro.Categoria = categoria.Categ;
+            }
             livros.Add(livro);
         }
     }
@@ -65,4 +72,8 @@ public partial class BookListPage : ContentPage
         }
     }
 
+    private async void Cadastrarcategoria_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new CategListPage());
+    }
 }

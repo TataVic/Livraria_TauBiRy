@@ -14,5 +14,8 @@ namespace TauBiRy.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Categ { get; set; }
+
+        public string Descricao { get; set; }
+
     }
 }
