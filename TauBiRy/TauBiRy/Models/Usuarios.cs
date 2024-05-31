@@ -11,7 +11,10 @@ namespace TauBiRy.Models
     [SQLite.Table("Usuarios")]
     public class Usuarios
     {
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
+
+        [MaxLength(100), Unique]
         public string Nome { get; set; }
         public string Senha { get; set; }
         public string Email { get; set; }

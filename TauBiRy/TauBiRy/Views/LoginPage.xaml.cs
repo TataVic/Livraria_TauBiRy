@@ -17,18 +17,36 @@ public partial class LoginPage : ContentPage
         conexao.CreateTable<Usuarios>();
     }
 
-    private async void OnRegisterTapped(object sender, TappedEventArgs e)
+    private async void RegistrarUsuario(object sender, TappedEventArgs e)
     {
         await Navigation.PushAsync(new RegisterPage());
     }
-
-    private void OnForgotPasswordTapped(object sender, TappedEventArgs e)
+    private bool ValidaUser(string email, string senha)
     {
-
+        var user = conexao.Table<Usuarios>().FirstOrDefault(e => e.Email == email);
+        return user != null && user.Senha == senha;
     }
 
-    private void Logar_Clicked(object sender, EventArgs e)
+    private async void Logar_Clicked(object sender, EventArgs e)
     {
+        Usuarios usuarios = new Usuarios();
+        string email = Email.Text;
+        string password = Senha.Text; 
 
+        bool autentificar = ValidaUser(email, password);
+
+        if (autentificar)
+        {
+            await Navigation.PushAsync(new BookListPage());
+        }
+        else
+        {
+            bool wantsToRegister = await DisplayAlert("Erro", "Usuário não encontrado. Deseja se cadastrar?", "Sim", "Não");
+
+            if (wantsToRegister)
+            {
+                await Navigation.PushAsync(new RegisterPage());
+            }
+        }
     }
 }

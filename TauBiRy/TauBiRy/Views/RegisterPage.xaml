@@ -5,9 +5,27 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="RegisterPage">
     <VerticalStackLayout>
-        <Entry x:Name="Nome" Keyboard="Text" Placeholder="Digite seu Nome e Sobrenome"/>
-        <Entry x:Name="Email" Keyboard="Email" Placeholder="Digite seu melhor Email"/>
-        <Entry x:Name="Telefone" Keyboard="Telephone" Placeholder="Telefone"/>
-        <Entry x:Name="Senha" IsPassword="True" Placeholder="Senha" />
+        <Entry
+            x:Name="Nome"
+            Keyboard="Text"
+            Placeholder="Digite seu Nome e Sobrenome"
+             />
+        <Entry
+            x:Name="Email"
+            Keyboard="Email"
+            Placeholder="Digite seu melhor Email"
+             />
+        <Entry
+            x:Name="Telefone"
+            Keyboard="Telephone"
+            Placeholder="Telefone"
+             />
+        <Entry
+            x:Name="Senha"
+            IsPassword="True"
+            Placeholder="Senha"
+             />
+        <!--<Entry x:Name="Pin"  />-->
+        <Button x:Name="Cadastrar" Clicked="Cadastrar_Clicked" Text="Cadastrar"/>
     </VerticalStackLayout>
 </ContentPage>

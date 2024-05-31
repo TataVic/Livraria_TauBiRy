@@ -41,6 +41,7 @@
                     HeightRequest="45"
                     HorizontalOptions="FillAndExpand">
                     <Entry
+                        x:Name="Email"
                         Margin="20,0,0,0"
                         Keyboard="Email"
                         Placeholder="Usuário"
@@ -68,6 +69,7 @@
                     HeightRequest="45"
                     HorizontalOptions="FillAndExpand">
                     <Entry
+                        x:Name="Senha"
                         Margin="20,0,0,0"
                         IsPassword="True"
                         Placeholder="Senha"
@@ -93,7 +95,7 @@
                     TextColor="Gray"
                     TextDecorations="Underline">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnRegisterTapped" />
+                        <TapGestureRecognizer Tapped="RegistrarUsuario" />
                     </Label.GestureRecognizers>
                 </Label>
             </StackLayout>
