@@ -41,7 +41,7 @@
                     HeightRequest="45"
                     HorizontalOptions="FillAndExpand">
                     <Entry
-                        x:Name="Email"
+                        x:Name="User"
                         Margin="20,0,0,0"
                         Keyboard="Email"
                         Placeholder="Usuário"

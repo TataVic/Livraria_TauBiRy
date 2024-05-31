@@ -21,19 +21,19 @@ public partial class LoginPage : ContentPage
     {
         await Navigation.PushAsync(new RegisterPage());
     }
-    private bool ValidaUser(string email, string senha)
+    private bool ValidaUser(string identifier, string senha)
     {
-        var user = conexao.Table<Usuarios>().FirstOrDefault(e => e.Email == email);
+        var user = conexao.Table<Usuarios>().FirstOrDefault(u => (u.Nome == identifier || u.Email == identifier));
         return user != null && user.Senha == senha;
     }
 
     private async void Logar_Clicked(object sender, EventArgs e)
     {
         Usuarios usuarios = new Usuarios();
-        string email = Email.Text;
+        string identifier = User.Text;
         string password = Senha.Text; 
 
-        bool autentificar = ValidaUser(email, password);
+        bool autentificar = ValidaUser(identifier, password);
 
         if (autentificar)
         {
