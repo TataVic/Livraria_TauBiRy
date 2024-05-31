@@ -1,7 +1,6 @@
 using SQLite;
 using TauBiRy.Models;
-using Microsoft.Maui.Controls;
-using System.Linq;
+using TauBiRy.Services;
 
 namespace TauBiRy.Views
 {
@@ -20,8 +19,7 @@ namespace TauBiRy.Views
             caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
             conexao = new SQLiteConnection(caminhoBD);
             conexao.CreateTable<Livro>();
-
-            // Initialize CategoriaService
+            conexao.CreateTable<Categoria>();
             categoriaService = new CategoriaService(conexao);
         }
 
@@ -44,15 +42,10 @@ namespace TauBiRy.Views
                 Anolancamento.Date = livroAtual.Anolancamento;
                 avali.Text = livroAtual.avalipessoal;
 
-                // Carregar a categoria do livro
                 Categoria categoria = categoriaService.GetCategorias().FirstOrDefault(c => c.Id == livroAtual.CategoriaId);
                 if (categoria != null)
                 {
                     Categoria.Text = categoria.Categ;
-                }
-                else
-                {
-                    Categoria.Text = "Categoria não encontrada";
                 }
             }
             else
@@ -82,7 +75,6 @@ namespace TauBiRy.Views
                     await DisplayAlert("Erro", "O livro a ser excluído não foi encontrado.", "OK");
                 }
 
-                // Navega de volta para a página principal (MainPage)
                 await Navigation.PopToRootAsync();
             }
         }
@@ -98,7 +90,7 @@ namespace TauBiRy.Views
 
             if (avali != null && livroAtual != null)
             {
-                livroAtual.avalipessoal = avali.Text; // Atualiza o valor da avaliação pessoal do livro
+                livroAtual.avalipessoal = avali.Text;
                 conexao.Update(livroAtual);
                 await DisplayAlert("Sucesso", "Livro atualizado com sucesso!", "OK");
                 await Navigation.PopAsync();

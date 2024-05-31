@@ -1,79 +1,80 @@
 using SQLite;
 using System.Collections.ObjectModel;
 using TauBiRy.Models;
+using TauBiRy.Services;
 
-namespace TauBiRy.Views;
-
-public partial class BookListPage : ContentPage
+namespace TauBiRy.Views
 {
-    string caminhoBD;
-    SQLiteConnection conexao;
-    ObservableCollection<Livro> livros;
-    public BookListPage()
+    public partial class BookListPage : ContentPage
     {
-        InitializeComponent();
+        string caminhoBD;
+        SQLiteConnection conexao;
+        ObservableCollection<Livro> livros;
+        CategoriaService categoriaService;
 
-        caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
-        conexao = new SQLiteConnection(caminhoBD);
-        conexao.CreateTable<Livro>();
-        livros = new ObservableCollection<Livro>(conexao.Table<Livro>().ToList());
-        CollectionViewControl.ItemsSource = livros;
-
-    }
-
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-        AtualizarListaLivros();
-    }
-
-    private void AtualizarListaLivros()
-    {
-        livros.Clear();
-        var livrosDoBanco = conexao.Table<Livro>().ToList();
-        var categorias = conexao.Table<Categoria>().ToList();
-
-        foreach (var livro in livrosDoBanco)
+        public BookListPage()
         {
-            var categoria = categorias.FirstOrDefault(c => c.Id == livro.CategoriaId);
-            if (categoria != null)
+            InitializeComponent();
+
+            caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
+            conexao = new SQLiteConnection(caminhoBD);
+            conexao.CreateTable<Livro>();
+            conexao.CreateTable<Categoria>();
+
+            categoriaService = new CategoriaService(conexao);
+
+            livros = new ObservableCollection<Livro>();
+            CollectionViewControl.ItemsSource = livros;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            AtualizarListaLivros();
+        }
+
+        private void AtualizarListaLivros()
+        {
+            livros.Clear();
+            var livrosDoBanco = conexao.Table<Livro>().ToList();
+            var categorias = categoriaService.GetCategorias();
+
+            foreach (var livro in livrosDoBanco)
             {
-                livro.Categoria = categoria.Categ;
+                var categoria = categorias.FirstOrDefault(c => c.Id == livro.CategoriaId);
+                if (categoria != null)
+                {
+                    livro.Categoria = categoria.Categ;
+                }
+                livros.Add(livro);
             }
-            livros.Add(livro);
         }
-    }
-    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
-    {
-        /*
-        var label = (Label)sender;
-        if ((label != null) && (label.BindingContext is Pessoa p))
+
+        private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
         {
-            TxtId.Text = p.Id.ToString();
-            TxtTexto.Text = p.Nome;
-        }*/
-    }
-
-
-    private async void Cadastrar_Clicked(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new BookCreatePage(1));
-    }
-
-    private async void Btnvisualizar(object sender, EventArgs e)
-    {
-        var button = sender as Button;
-        var livroId = (int)button.CommandParameter;
-        var livro = livros.FirstOrDefault(l => l.Id == livroId);
-
-        if (livro != null)
-        {
-            await Navigation.PushAsync(new BookDetailPage(livroId));
+            // Lógica para o gesto de toque
         }
-    }
 
-    private async void Cadastrarcategoria_Clicked(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new CategListPage());
+        private async void Cadastrar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BookCreatePage(1));
+        }
+
+        private async void Btnvisualizar(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+            var livroId = (int)button.CommandParameter;
+            var livro = livros.FirstOrDefault(l => l.Id == livroId);
+
+            if (livro != null)
+            {
+                await Navigation.PushAsync(new BookDetailPage(livroId));
+            }
+        }
+
+        private async void Cadastrarcategoria_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CategListPage());
+        }
     }
 }

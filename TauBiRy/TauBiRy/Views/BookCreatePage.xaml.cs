@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using SQLite;
 using TauBiRy.Models;
+using TauBiRy.Services;
 using Microsoft.Maui.Controls;
 
 namespace TauBiRy.Views
@@ -9,7 +10,7 @@ namespace TauBiRy.Views
     public partial class BookCreatePage : ContentPage
     {
         int acao;
-        string caminhoBD;  // caminho do banco
+        string caminhoBD;
         SQLiteConnection conexao;
         Livro livroAtual;
         CategoriaService categoriaService;
@@ -21,6 +22,7 @@ namespace TauBiRy.Views
             caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
             conexao = new SQLiteConnection(caminhoBD);
             conexao.CreateTable<Livro>();
+            conexao.CreateTable<Categoria>(); // Certifique-se de que a tabela Categoria seja criada aqui também
             categoriaService = new CategoriaService(conexao);
             LoadCategorias();
         }
@@ -51,12 +53,9 @@ namespace TauBiRy.Views
                 Editora.Text = livroAtual.Editora;
                 Anolancamento.Date = livroAtual.Anolancamento;
 
-                // Buscar a categoria associada ao livro atual
                 Categoria categoria = categoriaService.GetCategorias().FirstOrDefault(c => c.Id == livroAtual.CategoriaId);
-
                 if (categoria != null)
                 {
-                    // Definir a seleção do Picker com base no valor da categoria
                     Categoria.SelectedItem = categoria.Categ;
                 }
             }
@@ -70,7 +69,6 @@ namespace TauBiRy.Views
                 {
                     if (Categoria.SelectedItem != null)
                     {
-                        // Buscar a categoria selecionada
                         string categoriaSelecionada = Categoria.SelectedItem.ToString();
                         Categoria categoria = categoriaService.GetCategorias().FirstOrDefault(c => c.Categ == categoriaSelecionada);
 
@@ -80,7 +78,7 @@ namespace TauBiRy.Views
                             {
                                 Autor = Autor.Text,
                                 Titulo = Titulo.Text,
-                                CategoriaId = categoria.Id, // Usando o ID da categoria
+                                CategoriaId = categoria.Id,
                                 Isbn = Isbn.Text,
                                 Idioma = Idioma.Text,
                                 Editora = Editora.Text,
@@ -91,7 +89,6 @@ namespace TauBiRy.Views
                             await DisplayAlert("Sucesso", "Livro cadastrado com sucesso!", "OK");
                             await Navigation.PopAsync();
                         }
-
                     }
                     else
                     {
