@@ -11,10 +11,9 @@ Projeto em NET MAUI e a linguagem C# em conjunto com o banco de dados SQLite, qu
 Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
 - Filtro que exiba os livros que já foram lidos ou não, ou que estejam sendo lidos.
 - Usar fontes e cores personalizadas.
-![teladelogin](https://github.com/TataVic/TauBiRy/assets/120256512/d623ce61-4627-4286-a585-039eb22a1006)
 
 ### 🔨 Implantação 
-Tela de Login: 
+
 
 ### 🎮 Desenvolvimento em MVC (Model-View-Controller)
 ```
