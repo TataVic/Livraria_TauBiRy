@@ -334,11 +334,6 @@ C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-window
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TauBiRy.AssemblyInfoInputs.cache
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TauBiRy.AssemblyInfo.cs
@@ -547,3 +542,5 @@ C:\Users\Bianc\source\repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0
 C:\Users\Bianc\source\repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Bianc\source\repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Bianc\source\repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\passwords.scale-100.png
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png

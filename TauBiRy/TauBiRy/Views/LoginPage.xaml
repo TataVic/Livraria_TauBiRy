@@ -3,7 +3,8 @@
     x:Class="TauBiRy.Views.LoginPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="LoginPage">
+    Title="LoginPage"
+    BackgroundColor="#ffba6a">
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -14,15 +15,18 @@
                 <Label
                     FontSize="28"
                     HorizontalTextAlignment="Center"
-                    Text="Bem-Vindo" />
+                    Text="Bem-Vindo"
+                    TextColor="#662b00" />
                 <Label
                     FontSize="20"
                     HorizontalTextAlignment="Center"
-                    Text="Fazer Login na sua conta" />
+                    Text="Fazer Login na sua conta"
+                    TextColor="#887341" />
             </VerticalStackLayout>
 
             <StackLayout Orientation="Horizontal">
                 <Frame
+                    BackgroundColor="#662b00"
                     BorderColor="White"
                     CornerRadius="25"
                     HasShadow="True"
@@ -36,7 +40,8 @@
                 </Frame>
                 <Frame
                     Padding="0"
-                    BorderColor="White"
+                    BackgroundColor="White"
+                    BorderColor="#887341"
                     HasShadow="True"
                     HeightRequest="45"
                     HorizontalOptions="FillAndExpand">
@@ -45,12 +50,15 @@
                         Margin="20,0,0,0"
                         Keyboard="Email"
                         Placeholder="Usuário"
+                        PlaceholderColor="#887341"
+                        TextColor="#662b00"
                         VerticalOptions="Center" />
                 </Frame>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal">
                 <Frame
+                    BackgroundColor="#662b00"
                     BorderColor="White"
                     CornerRadius="25"
                     HasShadow="True"
@@ -59,12 +67,13 @@
                     ZIndex="1">
                     <Image
                         HeightRequest="20"
-                        Source="cadeado.png"
+                        Source="passwords.png"
                         WidthRequest="20" />
                 </Frame>
                 <Frame
                     Padding="0"
-                    BorderColor="White"
+                    BackgroundColor="White"
+                    BorderColor="#887341"
                     HasShadow="True"
                     HeightRequest="45"
                     HorizontalOptions="FillAndExpand">
@@ -73,23 +82,28 @@
                         Margin="20,0,0,0"
                         IsPassword="True"
                         Placeholder="Senha"
+                        PlaceholderColor="#887341"
+                        TextColor="#662b00"
                         VerticalOptions="Center" />
                 </Frame>
             </StackLayout>
 
             <Button
                 x:Name="Logar"
-                BackgroundColor="BlueViolet"
+                BackgroundColor="#662b00"
                 Clicked="Logar_Clicked"
                 CornerRadius="25"
                 HorizontalOptions="Center"
                 Text="Login"
+                TextColor="White"
                 WidthRequest="120" />
+
+            <!--  Cadastrar usuário  -->
             <StackLayout
                 HorizontalOptions="Center"
                 Orientation="Horizontal"
                 Spacing="5">
-                <Label Text="Não tem conta ?" />
+                <Label Text="Não tem conta ?" TextColor="#662b00" />
                 <Label
                     Text="Criar conta"
                     TextColor="Gray"

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj": {}
+    "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj": {
+    "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
+        "projectUniqueName": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
         "projectName": "TauBiRy",
-        "projectPath": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
-        "packagesPath": "C:\\Users\\Bianc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bianc\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\obj\\",
+        "projectPath": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\TauBiRy.csproj",
+        "packagesPath": "C:\\Users\\Tauani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tauani\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bianc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tauani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

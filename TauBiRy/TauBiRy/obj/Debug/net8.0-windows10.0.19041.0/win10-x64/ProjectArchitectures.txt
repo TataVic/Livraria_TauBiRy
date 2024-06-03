@@ -1,1 +1,1 @@
-C:\Users\Bianc\source\repos\TauBiRy\TauBiRy\TauBiRy\TauBiRy.csproj;x64
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\TauBiRy.csproj;x64

@@ -3,29 +3,176 @@
     x:Class="TauBiRy.Views.RegisterPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="RegisterPage">
-    <VerticalStackLayout>
-        <Entry
-            x:Name="Nome"
-            Keyboard="Text"
-            Placeholder="Digite seu Nome e Sobrenome"
-             />
-        <Entry
-            x:Name="Email"
-            Keyboard="Email"
-            Placeholder="Digite seu melhor Email"
-             />
-        <Entry
-            x:Name="Telefone"
-            Keyboard="Telephone"
-            Placeholder="Telefone"
-             />
-        <Entry
-            x:Name="Senha"
-            IsPassword="True"
-            Placeholder="Senha"
-             />
-        <!--<Entry x:Name="Pin"  />-->
-        <Button x:Name="Cadastrar" Clicked="Cadastrar_Clicked" Text="Cadastrar"/>
+    Title="RegisterPage"
+    BackgroundColor="#ffba6a">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+        
+        <!--  Cabeçalho  -->
+        <VerticalStackLayout>
+            <Label
+                FontSize="28"
+                HorizontalTextAlignment="Center"
+                Text="Registrar"
+                TextColor="#662b00" />
+            <Label
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                Text="Crie sua conta"
+                TextColor="#887341" />
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+            <Frame
+                BackgroundColor="#662b00"
+                BorderColor="White"
+                CornerRadius="27.5"
+                HasShadow="True"
+                HeightRequest="55"
+                VerticalOptions="Center"
+                WidthRequest="55">
+                <Image
+                    HeightRequest="20"
+                    HorizontalOptions="Center"
+                    Source="user.png"
+                    VerticalOptions="Center"
+                    WidthRequest="20" />
+            </Frame>
+            <Frame
+                Padding="0"
+                BackgroundColor="White"
+                BorderColor="#887341"
+                HasShadow="True"
+                HeightRequest="45"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center">
+                <Entry
+                    x:Name="Nome"
+                    Margin="20,0,0,0"
+                    Keyboard="Text"
+                    Placeholder="Digite seu nome"
+                    PlaceholderColor="#887341"
+                    TextColor="#662b00"
+                    VerticalOptions="Center" />
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+            <Frame
+                BackgroundColor="#662b00"
+                BorderColor="White"
+                CornerRadius="27.5"
+                HasShadow="True"
+                HeightRequest="55"
+                VerticalOptions="Center"
+                WidthRequest="55">
+                <Image
+                    HeightRequest="20"
+                    HorizontalOptions="Center"
+                    Source="email.png"
+                    VerticalOptions="Center"
+                    WidthRequest="20" />
+            </Frame>
+            <Frame
+                Padding="0"
+                BackgroundColor="White"
+                BorderColor="#887341"
+                HasShadow="True"
+                HeightRequest="45"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center">
+                <Entry
+                    x:Name="Email"
+                    Margin="20,0,0,0"
+                    Keyboard="Email"
+                    Placeholder="Digite seu e-mail"
+                    PlaceholderColor="#887341"
+                    TextColor="#662b00"
+                    VerticalOptions="Center" />
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+            <Frame
+                BackgroundColor="#662b00"
+                BorderColor="White"
+                CornerRadius="27.5"
+                HasShadow="True"
+                HeightRequest="55"
+                VerticalOptions="Center"
+                WidthRequest="55">
+                <Image
+                    HeightRequest="20"
+                    HorizontalOptions="Center"
+                    Source="phone.png"
+                    VerticalOptions="Center"
+                    WidthRequest="20" />
+            </Frame>
+            <Frame
+                Padding="0"
+                BackgroundColor="White"
+                BorderColor="#887341"
+                HasShadow="True"
+                HeightRequest="45"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center">
+                <Entry
+                    x:Name="Telefone"
+                    Margin="20,0,0,0"
+                    Keyboard="Telephone"
+                    Placeholder="Digite seu telefone"
+                    PlaceholderColor="#887341"
+                    TextColor="#662b00"
+                    VerticalOptions="Center" />
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+            <Frame
+                BackgroundColor="#662b00"
+                BorderColor="White"
+                CornerRadius="27.5"
+                HasShadow="True"
+                HeightRequest="55"
+                VerticalOptions="Center"
+                WidthRequest="55">
+                <Image
+                    HeightRequest="20"
+                    HorizontalOptions="Center"
+                    Source="password.png"
+                    VerticalOptions="Center"
+                    WidthRequest="20" />
+            </Frame>
+            <Frame
+                Padding="0"
+                BackgroundColor="White"
+                BorderColor="#887341"
+                HasShadow="True"
+                HeightRequest="45"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center">
+                <Entry
+                    x:Name="Senha"
+                    Margin="20,0,0,0"
+                    IsPassword="True"
+                    Placeholder="Digite sua senha"
+                    PlaceholderColor="#887341"
+                    TextColor="#662b00"
+                    VerticalOptions="Center" />
+            </Frame>
+        </StackLayout>
+
+        <Button
+            x:Name="Cadastrar"
+            BackgroundColor="#662b00"
+            Clicked="Cadastrar_Clicked"
+            CornerRadius="25"
+            HorizontalOptions="Center"
+            Text="Cadastrar"
+            TextColor="White"
+            WidthRequest="120" />
+
     </VerticalStackLayout>
 </ContentPage>
