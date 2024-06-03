@@ -56,6 +56,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\passwords.png" />
 	  <None Remove="Resources\Images\user.png" />
 	</ItemGroup>
