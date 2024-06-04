@@ -50,13 +50,13 @@
                         Grid.Column="1"
                         FontAttributes="Bold"
                         HorizontalOptions="Center"
-                        Text="T�tulo"
+                        Text="Título"
                         TextColor="White" />
                     <Label
                         Grid.Column="2"
                         FontAttributes="Bold"
                         HorizontalOptions="End"
-                        Text="A��o"
+                        Text="Ação"
                         TextColor="White" />
                 </Grid>
             </HorizontalStackLayout>
