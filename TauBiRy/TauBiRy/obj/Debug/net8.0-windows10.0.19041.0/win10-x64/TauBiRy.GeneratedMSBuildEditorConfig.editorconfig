@@ -77,9 +77,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
-
-[C:/Users/Bianc/source/Repos/TauBiRy/TauBiRy/TauBiRy/Views/teste.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = TauBiRy.Views.teste.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\teste.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\teste.xaml
