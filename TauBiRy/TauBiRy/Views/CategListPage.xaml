@@ -5,27 +5,23 @@
              Title="CategListPage">
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-
             <HorizontalStackLayout
-             Margin="0,20,0,0"
-             HorizontalOptions="Start"
-             Spacing="10">
-
+         Margin="0,20,0,0"
+         HorizontalOptions="Start"
+         Spacing="10">
                 <Button
-                 x:Name="BtnInserir"
-                 BackgroundColor="#1DD"
-                 Clicked="BtnInserir_Clicked"
-                 Text="Inserir" />
-
+             x:Name="BtnInserir"
+             BackgroundColor="#1DD"
+             Clicked="BtnInserir_Clicked"
+             Text="Inserir" />
             </HorizontalStackLayout>
             <CollectionView x:Name="CollectionViewControll">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid
-                         ColumnDefinitions="50,*,*,*,*"
-                         ColumnSpacing="5"
-                         RowDefinitions="65">
-
+                     ColumnDefinitions="50,*,*,*,*"
+                     ColumnSpacing="5"
+                     RowDefinitions="65">
                             <Label Text="{Binding Id}">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
@@ -36,32 +32,29 @@
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                                 </Label.GestureRecognizers>
                             </Label>
-
                             <Label Grid.Column="2" Text="{Binding Descricao}">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                                 </Label.GestureRecognizers>
                             </Label>
-
                             <Button
-                             x:Name="Editar"
-                             Grid.Column="3"
-                             Margin="0,-40,0,0"
-                             BackgroundColor="Orange"
-                             Clicked="Editar_Clicked"
-                             Command="{Binding Id}"
-                             MaximumHeightRequest="10"
-                             Text="Editar" />
-
+                         x:Name="Editar"
+                         Grid.Column="3"
+                         Margin="0,-40,0,0"
+                         BackgroundColor="Orange"
+                         Clicked="Editar_Clicked"
+                         CommandParameter="{Binding .}"
+                         MaximumHeightRequest="10"
+                         Text="Editar" />
                             <Button
-                             x:Name="Excluir"
-                             Grid.Column="4"
-                             Margin="0,-40,0,0"
-                             BackgroundColor="red"
-                             Clicked="Excluir_Clicked"
-                             Command="{Binding Id}"
-                             MaximumHeightRequest="10"
-                             Text="Excluir" />
+                         x:Name="Excluir"
+                         Grid.Column="4"
+                         Margin="0,-40,0,0"
+                         BackgroundColor="red"
+                         Clicked="Excluir_Clicked"
+                         CommandParameter="{Binding .}"
+                         MaximumHeightRequest="10"
+                         Text="Excluir" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

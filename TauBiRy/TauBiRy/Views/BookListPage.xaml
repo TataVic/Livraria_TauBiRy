@@ -30,6 +30,18 @@
                     Text="Categoria"
                     TextColor="White"
                     WidthRequest="150" />
+
+                <Picker x:Name="StatusPicker" Title="Selecione o status">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Todos</x:String>
+                            <x:String>Lido</x:String>
+                            <x:String>Lendo</x:String>
+                            <x:String>Não leu</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
             </HorizontalStackLayout>
 
             <!--  Cabeçalho da Tabela  -->
