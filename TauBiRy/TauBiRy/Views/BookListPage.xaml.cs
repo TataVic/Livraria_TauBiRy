@@ -61,7 +61,7 @@ namespace TauBiRy.Views
 
         private void FiltrarLivros(string status)
         {
-            Console.WriteLine($"Filtrando livros com status: {status}");
+          
             livrosFiltrados.Clear();
 
             switch (status)
@@ -84,8 +84,8 @@ namespace TauBiRy.Views
                         livrosFiltrados.Add(livro);
                     }
                     break;
-                case "Não leu":
-                    foreach (var livro in livros.Where(l => l.Status == "Não leu"))
+                case "Não Leu":
+                    foreach (var livro in livros.Where(l => l.Status == "Não Leu"))
                     {
                         livrosFiltrados.Add(livro);
                     }

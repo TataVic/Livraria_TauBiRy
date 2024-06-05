@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TauBiRy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7b32a59105c6f9636c49c706ac18887d69fb23e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+889443dce581f69cb3fa6453903a191c238c2166")]
 [assembly: System.Reflection.AssemblyProductAttribute("TauBiRy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TauBiRy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

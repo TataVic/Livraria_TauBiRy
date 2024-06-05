@@ -30,6 +30,7 @@ public partial class RegisterPage : ContentPage
                 Senha = Senha.Text,
             };
 
+
             conexao.Insert(usuarios);
             await DisplayAlert("Sucesso", "Usuário cadastrado com sucesso!", "OK");
             await Navigation.PopAsync();

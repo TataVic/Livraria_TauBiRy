@@ -37,7 +37,7 @@
                             <x:String>Todos</x:String>
                             <x:String>Lido</x:String>
                             <x:String>Lendo</x:String>
-                            <x:String>Não leu</x:String>
+                            <x:String>Não Leu</x:String>
                         </x:Array>
                     </Picker.ItemsSource>
                 </Picker>
