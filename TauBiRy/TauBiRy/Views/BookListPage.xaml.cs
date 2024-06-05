@@ -1,7 +1,10 @@
 using SQLite;
+using System;
 using System.Collections.ObjectModel;
+using System.Linq;
 using TauBiRy.Models;
 using TauBiRy.Services;
+using Microsoft.Maui.Controls;
 
 namespace TauBiRy.Views
 {
@@ -49,29 +52,50 @@ namespace TauBiRy.Views
                     livro.Categoria = categoria.Categ;
                 }
                 livros.Add(livro);
+                Console.WriteLine($"Livro: {livro.Titulo}, Status: {livro.Status}");
             }
 
+            // Aplicar a filtragem com base no status selecionado
             FiltrarLivros(StatusPicker.SelectedItem?.ToString() ?? "Todos");
         }
 
         private void FiltrarLivros(string status)
         {
+            Console.WriteLine($"Filtrando livros com status: {status}");
             livrosFiltrados.Clear();
 
-            if (status == "Todos")
+            switch (status)
             {
-                foreach (var livro in livros)
-                {
-                    livrosFiltrados.Add(livro);
-                }
+                case "Todos":
+                    foreach (var livro in livros)
+                    {
+                        livrosFiltrados.Add(livro);
+                    }
+                    break;
+                case "Lido":
+                    foreach (var livro in livros.Where(l => l.Status == "Lido"))
+                    {
+                        livrosFiltrados.Add(livro);
+                    }
+                    break;
+                case "Lendo":
+                    foreach (var livro in livros.Where(l => l.Status == "Lendo"))
+                    {
+                        livrosFiltrados.Add(livro);
+                    }
+                    break;
+                case "Não leu":
+                    foreach (var livro in livros.Where(l => l.Status == "Não leu"))
+                    {
+                        livrosFiltrados.Add(livro);
+                    }
+                    break;
+            
             }
-            else
+
+            foreach (var livro in livrosFiltrados)
             {
-                var filtrados = livros.Where(l => l.Status == status);
-                foreach (var livro in filtrados)
-                {
-                    livrosFiltrados.Add(livro);
-                }
+                Console.WriteLine($"Livro Filtrado: {livro.Titulo}, Status: {livro.Status}");
             }
         }
 
