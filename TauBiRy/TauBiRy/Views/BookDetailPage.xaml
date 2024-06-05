@@ -48,7 +48,10 @@
                 IsReadOnly="True" />
 
             <Label Text="Ano de lançamento" />
-            <DatePicker x:Name="Anolancamento" IsEnabled="False" />
+            <DatePicker
+                x:Name="Anolancamento"
+                IsEnabled="False"
+                />
 
             <Label Text="Avaliação Pessoal" />
             <Entry x:Name="avali" Margin="10" />
