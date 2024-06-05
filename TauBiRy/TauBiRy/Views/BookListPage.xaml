@@ -11,27 +11,27 @@
             <!--  Botões de Cadastrar  -->
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
                 <Button
-                    x:Name="Cadastrar"
-                    BackgroundColor="#662b00"
-                    Clicked="Cadastrar_Clicked"
-                    CornerRadius="20"
-                    HeightRequest="50"
-                    HorizontalOptions="FillAndExpand"
-                    Text="Livro"
-                    TextColor="White"
-                    WidthRequest="150" />
+                x:Name="Cadastrar"
+                BackgroundColor="#662b00"
+                Clicked="Cadastrar_Clicked"
+                CornerRadius="20"
+                HeightRequest="50"
+                HorizontalOptions="FillAndExpand"
+                Text="Livro"
+                TextColor="White"
+                WidthRequest="150" />
                 <Button
-                    x:Name="Cadastrarcateg"
-                    BackgroundColor="#662b00"
-                    Clicked="Cadastrarcategoria_Clicked"
-                    CornerRadius="20"
-                    HeightRequest="50"
-                    HorizontalOptions="FillAndExpand"
-                    Text="Categoria"
-                    TextColor="White"
-                    WidthRequest="150" />
+                x:Name="Cadastrarcateg"
+                BackgroundColor="#662b00"
+                Clicked="Cadastrarcategoria_Clicked"
+                CornerRadius="20"
+                HeightRequest="50"
+                HorizontalOptions="FillAndExpand"
+                Text="Categoria"
+                TextColor="White"
+                WidthRequest="150" />
 
-                <Picker x:Name="StatusPicker" Title="Selecione o status">
+                <Picker x:Name="StatusPicker" Title="Selecione o status" SelectedIndexChanged="OnStatusPickerSelectedIndexChanged">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
                             <x:String>Todos</x:String>
@@ -41,35 +41,34 @@
                         </x:Array>
                     </Picker.ItemsSource>
                 </Picker>
-
             </HorizontalStackLayout>
 
             <!--  Cabeçalho da Tabela  -->
             <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
                 <Grid
-                    Margin="0,20,0,10"
-                    Padding="10"
-                    BackgroundColor="#887341"
-                    ColumnDefinitions="Auto, *, Auto"
-                    WidthRequest="350">
+                Margin="0,20,0,10"
+                Padding="10"
+                BackgroundColor="#887341"
+                ColumnDefinitions="Auto, *, Auto"
+                WidthRequest="350">
                     <Label
-                        Grid.Column="0"
-                        FontAttributes="Bold"
-                        HorizontalOptions="Start"
-                        Text="ID"
-                        TextColor="White" />
+                    Grid.Column="0"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Text="ID"
+                    TextColor="White" />
                     <Label
-                        Grid.Column="1"
-                        FontAttributes="Bold"
-                        HorizontalOptions="Center"
-                        Text="Título"
-                        TextColor="White" />
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    Text="Título"
+                    TextColor="White" />
                     <Label
-                        Grid.Column="2"
-                        FontAttributes="Bold"
-                        HorizontalOptions="End"
-                        Text="Ação"
-                        TextColor="White" />
+                    Grid.Column="2"
+                    FontAttributes="Bold"
+                    HorizontalOptions="End"
+                    Text="Ação"
+                    TextColor="White" />
                 </Grid>
             </HorizontalStackLayout>
 
@@ -78,20 +77,20 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame
-                            Margin="0,5,0,5"
-                            Padding="10"
-                            BackgroundColor="White"
-                            CornerRadius="10"
-                            HasShadow="True">
+                        Margin="0,5,0,5"
+                        Padding="10"
+                        BackgroundColor="White"
+                        CornerRadius="10"
+                        HasShadow="True">
                             <Grid
-                                ColumnDefinitions="Auto, *, *, *, Auto"
-                                RowDefinitions="Auto"
-                                RowSpacing="10">
+                            ColumnDefinitions="Auto, *, *, *, Auto"
+                            RowDefinitions="Auto"
+                            RowSpacing="10">
                                 <Label
-                                    Grid.Column="0"
-                                    Text="{Binding Id}"
-                                    TextColor="#662b00"
-                                    VerticalOptions="Center">
+                                Grid.Column="0"
+                                Text="{Binding Id}"
+                                TextColor="#662b00"
+                                VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                                     </Label.GestureRecognizers>
@@ -101,25 +100,25 @@
                                 <Label Grid.Column="1" Text="" />
 
                                 <Label
-                                    Grid.Column="2"
-                                    Text="{Binding Titulo}"
-                                    TextColor="#662b00"
-                                    VerticalOptions="Center">
+                                Grid.Column="2"
+                                Text="{Binding Titulo}"
+                                TextColor="#662b00"
+                                VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                                     </Label.GestureRecognizers>
                                 </Label>
                                 <Button
-                                    Grid.Column="4"
-                                    BackgroundColor="#887341"
-                                    Clicked="Btnvisualizar"
-                                    CommandParameter="{Binding Id}"
-                                    CornerRadius="20"
-                                    HeightRequest="30"
-                                    HorizontalOptions="End"
-                                    Text="Visualizar"
-                                    TextColor="White"
-                                    VerticalOptions="End" />
+                                Grid.Column="4"
+                                BackgroundColor="#887341"
+                                Clicked="Btnvisualizar"
+                                CommandParameter="{Binding Id}"
+                                CornerRadius="20"
+                                HeightRequest="30"
+                                HorizontalOptions="End"
+                                Text="Visualizar"
+                                TextColor="White"
+                                VerticalOptions="End" />
                             </Grid>
                         </Frame>
                     </DataTemplate>

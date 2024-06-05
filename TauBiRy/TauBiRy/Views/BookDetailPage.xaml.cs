@@ -41,6 +41,7 @@ namespace TauBiRy.Views
                 Editora.Text = livroAtual.Editora;
                 Anolancamento.Date = livroAtual.Anolancamento;
                 avali.Text = livroAtual.avalipessoal;
+                StatusPicker.SelectedItem = livroAtual.Status;
 
                 Categoria categoria = categoriaService.GetCategorias().FirstOrDefault(c => c.Id == livroAtual.CategoriaId);
                 if (categoria != null)

@@ -10,6 +10,7 @@ namespace TauBiRy.Views
         string caminhoBD;
         SQLiteConnection conexao;
         ObservableCollection<Livro> livros;
+        ObservableCollection<Livro> livrosFiltrados;
         CategoriaService categoriaService;
 
         public BookListPage()
@@ -24,7 +25,8 @@ namespace TauBiRy.Views
             categoriaService = new CategoriaService(conexao);
 
             livros = new ObservableCollection<Livro>();
-            CollectionViewControl.ItemsSource = livros;
+            livrosFiltrados = new ObservableCollection<Livro>();
+            CollectionViewControl.ItemsSource = livrosFiltrados;
         }
 
         protected override void OnAppearing()
@@ -48,12 +50,37 @@ namespace TauBiRy.Views
                 }
                 livros.Add(livro);
             }
+
+            FiltrarLivros(StatusPicker.SelectedItem?.ToString() ?? "Todos");
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+        private void FiltrarLivros(string status)
         {
-            // Lógica para o gesto de toque
+            livrosFiltrados.Clear();
+
+            if (status == "Todos")
+            {
+                foreach (var livro in livros)
+                {
+                    livrosFiltrados.Add(livro);
+                }
+            }
+            else
+            {
+                var filtrados = livros.Where(l => l.Status == status);
+                foreach (var livro in filtrados)
+                {
+                    livrosFiltrados.Add(livro);
+                }
+            }
         }
+
+        private void OnStatusPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+            var selectedStatus = StatusPicker.SelectedItem?.ToString() ?? "Todos";
+            FiltrarLivros(selectedStatus);
+        }
+
 
         private async void Cadastrar_Clicked(object sender, EventArgs e)
         {
