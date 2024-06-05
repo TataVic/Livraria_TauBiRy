@@ -24,13 +24,7 @@
             <Entry x:Name="Isbn" Margin="10" />
 
             <Label Text="Categoria" />
-            <Picker x:Name="Categoria" Margin="20">
-                <Picker.Items>
-                    <x:String>Ficção</x:String>
-                    <x:String>Fantasia</x:String>
-                    <x:String>Aventura</x:String>
-                </Picker.Items>
-            </Picker>
+            <Picker x:Name="Categoria" Margin="20" />
 
             <Label Text="Idioma" />
             <Entry x:Name="Idioma" Margin="10" />

@@ -1,15 +1,16 @@
 using SQLite;
+using TauBiRy.Models;
+using TauBiRy.Services;
 
 namespace TauBiRy.Views;
 
 public partial class BookEditPage : ContentPage
 {
-
-
     int livroId;
     string caminhoBD;
     SQLiteConnection conexao;
     Livro livroAtual;
+    CategoriaService categoriaService;
 
     public BookEditPage(int livroId)
     {
@@ -18,6 +19,9 @@ public partial class BookEditPage : ContentPage
         caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
         conexao = new SQLiteConnection(caminhoBD);
         conexao.CreateTable<Livro>();
+        conexao.CreateTable<Categoria>();
+        categoriaService = new CategoriaService(conexao);
+        LoadCategorias();
 
     }
 
@@ -26,7 +30,14 @@ public partial class BookEditPage : ContentPage
         base.OnAppearing();
         CarregarDetalhesLivro();
     }
-
+    private void LoadCategorias()
+    {
+        List<Categoria> categorias = categoriaService.GetCategorias();
+        foreach (var categoria in categorias)
+        {
+            Categoria.Items.Add(categoria.Categ);
+        }
+    } 
     private void CarregarDetalhesLivro()
     {
         livroAtual = conexao.Find<Livro>(livroId);
@@ -38,7 +49,13 @@ public partial class BookEditPage : ContentPage
             Idioma.Text = livroAtual.Idioma;
             Editora.Text = livroAtual.Editora;
             Anolancamento.Date = livroAtual.Anolancamento;
-            //Categoria.Text = livroAtual.Categoria;   // precisa ter o FK ainda nao implementado
+
+            Categoria categoria = categoriaService.GetCategorias().FirstOrDefault(c => c.Id == livroAtual.CategoriaId);
+            if (categoria != null)
+            {
+                Categoria.SelectedItem = categoria.Categ;
+            }
+
         }
     }
 

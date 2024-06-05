@@ -22,7 +22,7 @@ namespace TauBiRy.Views
             caminhoBD = System.IO.Path.Combine(Microsoft.Maui.Storage.FileSystem.AppDataDirectory, "livro.db3");
             conexao = new SQLiteConnection(caminhoBD);
             conexao.CreateTable<Livro>();
-            conexao.CreateTable<Categoria>(); // Certifique-se de que a tabela Categoria seja criada aqui também
+            conexao.CreateTable<Categoria>(); 
             categoriaService = new CategoriaService(conexao);
             LoadCategorias();
         }
