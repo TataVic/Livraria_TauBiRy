@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-06T00:44:30.390</Modified>
+      <Modified>2024-06-06T02:54:00.029</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-06T00:27:11.822</Modified>
+      <Modified>2024-06-06T02:49:49.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TauBiRy.runtimeconfig.json">
       <PackagePath>TauBiRy.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-06T00:23:03.934</Modified>
+      <Modified>2024-06-06T01:05:17.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TauBiRy.dll">
       <PackagePath>TauBiRy.dll</PackagePath>
-      <Modified>2024-06-06T00:44:29.893</Modified>
+      <Modified>2024-06-06T02:53:59.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TauBiRy.exe</PackagePath>
-      <Modified>2024-06-06T00:44:29.925</Modified>
+      <Modified>2024-06-06T02:53:59.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,231 +55,231 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-06T01:05:15.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-06T01:05:15.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.707</Modified>
+      <Modified>2024-06-06T01:05:15.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.707</Modified>
+      <Modified>2024-06-06T01:05:15.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.708</Modified>
+      <Modified>2024-06-06T01:05:15.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-06-05T23:03:21.665</Modified>
+      <Modified>2024-06-05T23:03:19.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-06-05T23:03:21.668</Modified>
+      <Modified>2024-06-05T23:03:19.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-05T23:03:21.669</Modified>
+      <Modified>2024-06-06T01:05:16.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.671</Modified>
+      <Modified>2024-06-06T01:05:16.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.671</Modified>
+      <Modified>2024-06-06T01:05:16.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.672</Modified>
+      <Modified>2024-06-06T01:05:16.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.672</Modified>
+      <Modified>2024-06-06T01:05:16.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.672</Modified>
+      <Modified>2024-06-06T01:05:16.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.672</Modified>
+      <Modified>2024-06-06T01:05:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.672</Modified>
+      <Modified>2024-06-06T01:05:16.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.675</Modified>
+      <Modified>2024-06-06T01:05:16.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.676</Modified>
+      <Modified>2024-06-06T01:05:16.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.676</Modified>
+      <Modified>2024-06-06T01:05:16.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.677</Modified>
+      <Modified>2024-06-06T01:05:16.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.677</Modified>
+      <Modified>2024-06-06T01:05:16.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.677</Modified>
+      <Modified>2024-06-06T01:05:16.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.678</Modified>
+      <Modified>2024-06-06T01:05:16.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.683</Modified>
+      <Modified>2024-06-06T01:05:16.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.684</Modified>
+      <Modified>2024-06-06T01:05:16.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.684</Modified>
+      <Modified>2024-06-06T01:05:16.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.684</Modified>
+      <Modified>2024-06-06T01:05:16.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.686</Modified>
+      <Modified>2024-06-06T01:05:16.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.686</Modified>
+      <Modified>2024-06-06T01:05:16.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.687</Modified>
+      <Modified>2024-06-06T01:05:16.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.692</Modified>
+      <Modified>2024-06-06T01:05:16.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.693</Modified>
+      <Modified>2024-06-06T01:05:16.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.698</Modified>
+      <Modified>2024-06-06T01:05:16.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-06T01:05:16.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-06T01:05:16.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-05T23:03:19.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\passwords.scale-100.png">
       <PackagePath>passwords.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-05T23:03:19.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
       <PackagePath>user.scale-100.png</PackagePath>
-      <Modified>2024-06-05T23:03:21.700</Modified>
+      <Modified>2024-06-05T23:03:19.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TauBiRy.deps.json">
       <PackagePath>TauBiRy.deps.json</PackagePath>
-      <Modified>2024-06-06T00:23:03.599</Modified>
+      <Modified>2024-06-06T01:05:17.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tauani\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

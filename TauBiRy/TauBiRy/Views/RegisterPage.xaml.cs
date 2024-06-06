@@ -1,4 +1,5 @@
 
+using System.Collections.Specialized;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
 using SQLite;
@@ -19,31 +20,31 @@ public partial class RegisterPage : ContentPage
         conexao = new SQLiteConnection(caminhoBD);
         conexao.CreateTable<Usuarios>();
     }
-
+    //método do botão de cadastrar usuário
     private async void Cadastrar_Clicked(object sender, EventArgs e)
     {
         if (!string.IsNullOrWhiteSpace(Nome.Text))
         {
-            var usuarioExistente = conexao.Table<Usuarios>().FirstOrDefault(u => u.Nome == Nome.Text || u.Email == Email.Text);
+            var usuarioExistente = conexao.Table<Usuarios>().FirstOrDefault(u => u.Nome == Nome.Text || u.Email == Email.Text); //valida o mesmo nome e email
 
-                if (usuarioExistente != null)
+            if (usuarioExistente != null)
                 {
-                    // Se encontrar um usuário com o mesmo nome, exibe um alerta
                     await DisplayAlert("Erro", "Este nome de usuário já está em uso. Por favor, escolha outro.", "OK");
                 }
                 else
                 {
+                    string GerarPin = GeradorPin(); //geração do pin
+
                     Usuarios usuarios = new Usuarios
                     {
                         Nome = Nome.Text,
                         Email = Email.Text,
                         Telefone = Telefone.Text,
                         Senha = Senha.Text,
+                        Pin = GerarPin
                     };
-
-
                     conexao.Insert(usuarios);
-                    await DisplayAlert("Sucesso", "Usuário cadastrado com sucesso!", "OK");
+                    await DisplayAlert("Sucesso", $"Usuário cadastrado com sucesso!  Seu PIN é {GerarPin}", "OK");
                     await Navigation.PopAsync();
                 }
             }
@@ -53,18 +54,29 @@ public partial class RegisterPage : ContentPage
         }
     }
 
+    //método para gerar o pin aleatório e com tamanho 4
+    private string GeradorPin()
+    {
+        Random random = new Random();
+        string pin = random.Next(1000, 9999).ToString();
+        return pin;
+    }
+
+    //método que chama a validação para o campo email
     private void Email_Unfocused(object sender, FocusEventArgs e)
     {
         string email = Email.Text; 
 
         if (!EmailValido(email))
         {
+            //validaEmail.IsVisible = true; //habilitar caso queiram a mensagem
             DisplayAlert("Validação de E-mail", "E-mail inválido!", "OK");
-            validationLabel.IsVisible = true;
+           
         }
        
     }
-    //valida a máscara padrão de email
+
+    //método de formação da máscara padrão de email
     private bool EmailValido(string email)
     {
         string padraoEmail = @"^[^@\s]+@[^@\s]+\.[^@\s]+$"; // Expressão Regular 

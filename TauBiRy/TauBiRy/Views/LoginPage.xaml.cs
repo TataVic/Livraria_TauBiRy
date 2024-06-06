@@ -21,19 +21,29 @@ public partial class LoginPage : ContentPage
     {
         await Navigation.PushAsync(new RegisterPage());
     }
-    private bool ValidaUser(string identifier, string senha)
+
+    //método para validar o usuário conforme nome ou email, senha ou PIN
+    private bool ValidaUser(string identifier, string Senha_Pin)
     {
         var user = conexao.Table<Usuarios>().FirstOrDefault(u => (u.Nome == identifier || u.Email == identifier));
-        return user != null && user.Senha == senha;
+        if (user != null)
+        {
+            // Verifica se a senha fornecida corresponde à senha armazenada ou ao PIN armazenado
+            if (user.Senha == Senha_Pin || user.Pin == Senha_Pin)
+            {
+                return true; 
+            }
+        }
+        return false;
     }
 
     private async void Logar_Clicked(object sender, EventArgs e)
     {
         Usuarios usuarios = new Usuarios();
         string identifier = User.Text;
-        string password = Senha.Text; 
+        string password = Senha_Pin.Text; 
 
-        bool autentificar = ValidaUser(identifier, password);
+        bool autentificar = ValidaUser(identifier, password); //valida o usuário e seu password
 
         if (autentificar)
         {
@@ -41,16 +51,17 @@ public partial class LoginPage : ContentPage
         }
         else
         {
-            bool wantsToRegister = await DisplayAlert("Erro", "Usuário não encontrado. Deseja se cadastrar?", "Sim", "Não");
+            //Caso não tenha usuário, chama a tela de registro
+            bool RegistrarUsuário = await DisplayAlert("Erro", "Usuário não encontrado. Deseja se cadastrar?", "Sim", "Não");
 
-            if (wantsToRegister)
+            if (RegistrarUsuário)
             {
                 await Navigation.PushAsync(new RegisterPage());
             }
         }
     }
 
-    //Ao confirmar no enter, executa o botão
+    //Ao confirmar no enter, executa o botão a sua ação
     private void Senha_Completed(object sender, EventArgs e)
     {
         Logar.Focus();

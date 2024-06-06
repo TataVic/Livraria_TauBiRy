@@ -76,6 +76,11 @@
                     VerticalOptions="Center"
                     WidthRequest="20" />
             </Frame>
+            <Label
+    x:Name="validaEmail"
+    IsVisible="False"
+    TextColor="Red"
+                Text="Email inválido"/>
             <Frame
                 Padding="0"
                 BackgroundColor="White"
@@ -97,10 +102,7 @@
                         TextColor="#662b00"
                         Unfocused="Email_Unfocused"
                         VerticalOptions="Center" />
-                    <Label
-                        x:Name="validationLabel"
-                        IsVisible="False"
-                        TextColor="Red" />
+                    
                 </StackLayout>
             </Frame>
         </StackLayout>
@@ -175,6 +177,7 @@
                     TextColor="#662b00"
                     VerticalOptions="Center" />
             </Frame>
+            <Entry x:Name="PinEntry" IsVisible="False" />
         </StackLayout>
 
         <Button

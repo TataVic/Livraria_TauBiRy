@@ -8,6 +8,7 @@ using SQLite;
 
 namespace TauBiRy.Models
 {
+    //Classe e Tabela de Usuários
     [SQLite.Table("Usuarios")]
     public class Usuarios
     {
@@ -19,6 +20,7 @@ namespace TauBiRy.Models
         public string Senha { get; set; } //não pode ser nullo
         public string Email { get; set; } //não pode ser nulo
         public string Telefone { get; set; }
+        public string Pin { get; set; }
 
     }
 }
