@@ -49,4 +49,11 @@ public partial class LoginPage : ContentPage
             }
         }
     }
+
+    //Ao confirmar no enter, executa o botão
+    private void Senha_Completed(object sender, EventArgs e)
+    {
+        Logar.Focus();
+        Logar_Clicked(sender, e);
+    }
 }

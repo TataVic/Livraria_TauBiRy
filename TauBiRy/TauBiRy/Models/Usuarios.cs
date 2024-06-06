@@ -16,8 +16,8 @@ namespace TauBiRy.Models
 
         [MaxLength(100), Unique]
         public string Nome { get; set; }
-        public string Senha { get; set; }
-        public string Email { get; set; }
+        public string Senha { get; set; } //não pode ser nullo
+        public string Email { get; set; } //não pode ser nulo
         public string Telefone { get; set; }
 
     }

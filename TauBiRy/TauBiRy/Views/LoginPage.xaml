@@ -85,7 +85,8 @@
                         Placeholder="Senha"
                         PlaceholderColor="#887341"
                         TextColor="#662b00"
-                        VerticalOptions="Center" />
+                        VerticalOptions="Center"
+                        Completed="Senha_Completed"/>
                 </Frame>
             </StackLayout>
 

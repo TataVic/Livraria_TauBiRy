@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     BackgroundColor="#ffba6a"
     NavigationPage.HasNavigationBar="False">
-    
+
     <VerticalStackLayout
         Padding="30,0"
         Spacing="25"
@@ -84,14 +84,24 @@
                 HeightRequest="45"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="Center">
-                <Entry
-                    x:Name="Email"
-                    Margin="20,0,0,0"
-                    Keyboard="Email"
-                    Placeholder="Digite seu e-mail"
-                    PlaceholderColor="#887341"
-                    TextColor="#662b00"
-                    VerticalOptions="Center" />
+                <StackLayout
+                    Padding="0"
+                    Orientation="Vertical"
+                    Spacing="0">
+                    <Entry
+                        x:Name="Email"
+                        Margin="20,0,0,0"
+                        Keyboard="Email"
+                        Placeholder="Digite seu e-mail"
+                        PlaceholderColor="#887341"
+                        TextColor="#662b00"
+                        Unfocused="Email_Unfocused"
+                        VerticalOptions="Center" />
+                    <Label
+                        x:Name="validationLabel"
+                        IsVisible="False"
+                        TextColor="Red" />
+                </StackLayout>
             </Frame>
         </StackLayout>
 
@@ -125,6 +135,7 @@
                     Keyboard="Telephone"
                     Placeholder="Digite seu telefone"
                     PlaceholderColor="#887341"
+                    TextChanged="Telefone_TextChanged"
                     TextColor="#662b00"
                     VerticalOptions="Center" />
             </Frame>
@@ -157,6 +168,7 @@
                 <Entry
                     x:Name="Senha"
                     Margin="20,0,0,0"
+                    Completed="Senha_Completed"
                     IsPassword="True"
                     Placeholder="Digite sua senha"
                     PlaceholderColor="#887341"
