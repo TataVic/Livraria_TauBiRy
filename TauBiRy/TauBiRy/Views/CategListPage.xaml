@@ -1,61 +1,95 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TauBiRy.Views.CategListPage"
-             Title="CategListPage">
+<ContentPage
+    x:Class="TauBiRy.Views.CategListPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#ffba6a"
+    NavigationPage.HasNavigationBar="False">
+
     <ScrollView>
-        <VerticalStackLayout Padding="30,0" Spacing="25">
-            <HorizontalStackLayout
-         Margin="0,20,0,0"
-         HorizontalOptions="Start"
-         Spacing="10">
-                <Button
-             x:Name="BtnInserir"
-             BackgroundColor="#1DD"
-             Clicked="BtnInserir_Clicked"
-             Text="Inserir" />
-            </HorizontalStackLayout>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Título da Página -->
+            <VerticalStackLayout Spacing="5" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Lista de Categorias" TextColor="#662b00" FontSize="24" FontAttributes="Bold" />
+                <BoxView HeightRequest="2" WidthRequest="200" BackgroundColor="#887341" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Botão de Inserir Categoria -->
+            <Button
+                x:Name="BtnInserir"
+                BackgroundColor="#662b00"
+                TextColor="White"
+                Clicked="BtnInserir_Clicked"
+                Text="Inserir Categoria"
+                CornerRadius="20"
+                WidthRequest="200"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Margin="0,10"
+                />
+
+            <!-- Lista de Categorias -->
             <CollectionView x:Name="CollectionViewControll">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid
-                     ColumnDefinitions="50,*,*,*,*"
-                     ColumnSpacing="5"
-                     RowDefinitions="65">
-                            <Label Text="{Binding Id}">
-                                <Label.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                </Label.GestureRecognizers>
-                            </Label>
-                            <Label Grid.Column="1" Text="{Binding Categ}">
-                                <Label.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                </Label.GestureRecognizers>
-                            </Label>
-                            <Label Grid.Column="2" Text="{Binding Descricao}">
-                                <Label.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                </Label.GestureRecognizers>
-                            </Label>
-                            <Button
-                         x:Name="Editar"
-                         Grid.Column="3"
-                         Margin="0,-40,0,0"
-                         BackgroundColor="Orange"
-                         Clicked="Editar_Clicked"
-                         CommandParameter="{Binding .}"
-                         MaximumHeightRequest="10"
-                         Text="Editar" />
-                            <Button
-                         x:Name="Excluir"
-                         Grid.Column="4"
-                         Margin="0,-40,0,0"
-                         BackgroundColor="red"
-                         Clicked="Excluir_Clicked"
-                         CommandParameter="{Binding .}"
-                         MaximumHeightRequest="10"
-                         Text="Excluir" />
-                        </Grid>
+                        <Frame HasShadow="True" CornerRadius="10" Padding="10" Margin="0,5,0,5" BackgroundColor="White">
+                            <Grid
+                                ColumnDefinitions="Auto, *, *, Auto, Auto"
+                                RowDefinitions="Auto"
+                                RowSpacing="10">
+
+                                <Label Grid.Column="0" Text="{Binding Id}" TextColor="#662b00" VerticalOptions="Center">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                                <Label Grid.Column="1" Text="{Binding Categ}" TextColor="#662b00" VerticalOptions="Center">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                                <Label Grid.Column="2" Text="{Binding Descricao}" TextColor="#662b00" VerticalOptions="Center">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                                <Button
+                                    x:Name="Editar"
+                                    Grid.Column="3"
+                                    BackgroundColor="#ff9800"
+                                    TextColor="White"
+                                    Clicked="Editar_Clicked"
+                                    CommandParameter="{Binding .}"
+                                    Text="Editar"
+                                    CornerRadius="20"
+                                    WidthRequest="80"
+                                    HeightRequest="40"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="End"
+                                    Margin="0,0,5,0"
+                                    />
+
+                                <Button
+                                    x:Name="Excluir"
+                                    Grid.Column="4"
+                                    BackgroundColor="#f44336"
+                                    TextColor="White"
+                                    Clicked="Excluir_Clicked"
+                                    CommandParameter="{Binding .}"
+                                    Text="Excluir"
+                                    CornerRadius="20"
+                                    WidthRequest="80"
+                                    HeightRequest="40"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="End"
+                                    />
+                            </Grid>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

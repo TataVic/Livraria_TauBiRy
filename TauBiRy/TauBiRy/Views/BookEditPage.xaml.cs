@@ -61,17 +61,19 @@ public partial class BookEditPage : ContentPage
 
     private async void BtnSalvar_Clicked(object sender, EventArgs e)
     {
-        Livro livroAtual = new Livro();
-        livroAtual.Autor = Autor.Text;
-        livroAtual.Titulo = Titulo.Text;
-        livroAtual.Categoria = Categoria.SelectedItem.ToString();
-        livroAtual.Isbn = Isbn.Text;
-        livroAtual.Idioma = Idioma.Text;
-        livroAtual.Editora = Editora.Text;
-        livroAtual.Anolancamento = Anolancamento.Date;
-        conexao.Update(livroAtual);
-        await DisplayAlert("Sucesso", "Livro atualizado com sucesso!", "OK");
-        await Navigation.PopAsync();
+        if (livroAtual != null)
+        {
+            livroAtual.Autor = Autor.Text;
+            livroAtual.Titulo = Titulo.Text;
+            //livroAtual.Categoria = Categoria.SelectedItem.ToString();
+            livroAtual.Isbn = Isbn.Text;
+            livroAtual.Idioma = Idioma.Text;
+            livroAtual.Editora = Editora.Text;
+            livroAtual.Anolancamento = Anolancamento.Date;
+            conexao.Update(livroAtual);
+            await DisplayAlert("Sucesso", "Livro atualizado com sucesso!", "OK");
+            await Navigation.PopAsync();
+        }
 
 
     }

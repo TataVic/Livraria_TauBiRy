@@ -4,60 +4,81 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Sobre o livro"
-    NavigationPage.HasNavigationBar="False">
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#ffba6a">
 
     <!--  página para ver os detalhes do livro e marcar como lido, não lido, lendo  -->
 
     <ScrollView>
-        <VerticalStackLayout>
-            <Label Text="Título" />
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label Text="Título" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Titulo"
-                Margin="10"
+                Margin="10,0"
                 IsReadOnly="True"
-                Placeholder="Informe o título do livro" />
+                Placeholder="Informe o título do livro"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="Autor" />
+            <Label Text="Autor" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Autor"
-                Margin="10"
-                IsReadOnly="True" />
+                Margin="10,0"
+                IsReadOnly="True"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="ISBN" />
+            <Label Text="ISBN" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Isbn"
-                Margin="10"
-                IsReadOnly="True" />
+                Margin="10,0"
+                IsReadOnly="True"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="Idioma" />
+            <Label Text="Idioma" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Idioma"
-                Margin="10"
-                IsReadOnly="True" />
+                Margin="10,0"
+                IsReadOnly="True"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="Editora" />
+            <Label Text="Editora" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Editora"
-                Margin="10"
-                IsReadOnly="True" />
+                Margin="10,0"
+                IsReadOnly="True"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="Categoria" />
+            <Label Text="Categoria" TextColor="#662b00" FontAttributes="Bold"/>
             <Entry
                 x:Name="Categoria"
-                Margin="10"
-                IsReadOnly="True" />
+                Margin="10,0"
+                IsReadOnly="True"
+                BackgroundColor="White"
+                TextColor="#662b00"
+                />
 
-            <Label Text="Ano de lançamento" />
+            <Label Text="Ano de lançamento" TextColor="#662b00" FontAttributes="Bold"/>
             <DatePicker
                 x:Name="Anolancamento"
                 IsEnabled="False"
+                TextColor="#662b00"
+                Margin="10,0"
                 />
 
-            <Label Text="Avaliação Pessoal" />
-            <Entry x:Name="avali" Margin="10" />
+            <Label Text="Avaliação Pessoal" TextColor="#662b00" FontAttributes="Bold"/>
+            <Entry x:Name="avali" Margin="10,0" BackgroundColor="White" TextColor="#662b00"/>
 
-            <Label Text="Leitura" />
-            <Picker x:Name="StatusPicker" Title="Selecione o status de leitura">
+            <Label Text="Leitura" TextColor="#662b00" FontAttributes="Bold"/>
+            <Picker x:Name="StatusPicker" Title="Selecione o status de leitura" TextColor="#662b00" Margin="10,0">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Lendo</x:String>
@@ -69,24 +90,36 @@
 
             <Button
                 x:Name="BtnSalvarAvi"
-                Margin="50"
+                BackgroundColor="#662b00"
+                TextColor="White"
+                Margin="50,10"
                 Padding="20"
                 Clicked="BtnSalvarAvi_Clicked"
-                Text="Salvar" />
+                Text="Salvar"
+                CornerRadius="20"
+                />
 
             <Button
                 x:Name="BtnEditar"
-                Margin="50"
+                BackgroundColor="#662b00"
+                TextColor="White"
+                Margin="50,10"
                 Padding="20"
                 Clicked="BtnEditar_Clicked"
-                Text="Editar" />
+                Text="Editar"
+                CornerRadius="20"
+                />
 
             <Button
                 x:Name="BtnExcluir"
-                Margin="50"
+                BackgroundColor="#662b00"
+                TextColor="White"
+                Margin="50,10"
                 Padding="20"
                 Clicked="BtnExcluir_Clicked"
-                Text="Excluir" />
+                Text="Excluir"
+                CornerRadius="20"
+                />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

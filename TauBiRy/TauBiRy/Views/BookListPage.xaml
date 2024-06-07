@@ -91,9 +91,9 @@
                                 Text="{Binding Id}"
                                 TextColor="#662b00"
                                 VerticalOptions="Center">
-                                    <Label.GestureRecognizers>
+                                    <!--<Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                    </Label.GestureRecognizers>
+                                    </Label.GestureRecognizers>-->
                                 </Label>
 
                                 <!--  Espa�o entre o ID e o T�tulo  -->
@@ -104,9 +104,9 @@
                                 Text="{Binding Titulo}"
                                 TextColor="#662b00"
                                 VerticalOptions="Center">
-                                    <Label.GestureRecognizers>
+                                    <!--<Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                                    </Label.GestureRecognizers>
+                                    </Label.GestureRecognizers>-->
                                 </Label>
                                 <Button
                                 Grid.Column="4"

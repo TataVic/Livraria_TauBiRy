@@ -3,50 +3,82 @@
     x:Class="TauBiRy.Views.BookEditPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="Editar Livro">
-    <!--  pagina de cadastrar e editar os livros  -->
-    <!--
-        Ano de Lançamento, Lido (sim, não ou lendo), Avaliação Pessoal.
-        perguntar se o campo observação é na classe pessoa
-    -->
+    BackgroundColor="#ffba6a"
+    NavigationPage.HasNavigationBar="False">
+
     <ScrollView>
-        <VerticalStackLayout>
-            <Label Text="Titulo" />
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Título da Página -->
+            <VerticalStackLayout Spacing="5" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Editar Livro" TextColor="#662b00" FontSize="24" FontAttributes="Bold" />
+                <BoxView HeightRequest="2" WidthRequest="150" BackgroundColor="#65a30d" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Formulário de Edição de Livro -->
+            <Label Text="Título" TextColor="#662b00" />
             <Entry
                 x:Name="Titulo"
-                Margin="10"
-                Placeholder="Informe o titulo do livro" />
+                Margin="10,0"
+                Placeholder="Informe o título do livro"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="Autor" />
-            <Entry x:Name="Autor" Margin="10" />
+            <Label Text="Autor" TextColor="#662b00" />
+            <Entry
+                x:Name="Autor"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="ISBN" />
-            <Entry x:Name="Isbn" Margin="10" />
+            <Label Text="ISBN" TextColor="#662b00" />
+            <Entry
+                x:Name="Isbn"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="Categoria" />
-            <Picker x:Name="Categoria" Margin="20" />
+            <Label Text="Categoria" TextColor="#662b00" />
+            <Picker
+                x:Name="Categoria"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="Idioma" />
-            <Entry x:Name="Idioma" Margin="10" />
+            <Label Text="Idioma" TextColor="#662b00" />
+            <Entry
+                x:Name="Idioma"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="Editora" />
-            <Entry x:Name="Editora" Margin="10" />
+            <Label Text="Editora" TextColor="#662b00" />
+            <Entry
+                x:Name="Editora"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
 
-            <Label Text="Ano de lançamento" />
-            <DatePicker x:Name="Anolancamento" />
+            <Label Text="Ano de lançamento" TextColor="#662b00" />
+            <DatePicker
+                x:Name="Anolancamento"
+                Margin="10,0"
+                BackgroundColor="White"
+                TextColor="#662b00" />
+
+            <!-- Botão de Salvar -->
             <Button
                 x:Name="BtnSalvar"
-                Margin="50"
-                Padding="20"
+                BackgroundColor="#662b00"
+                TextColor="White"
                 Clicked="BtnSalvar_Clicked"
-                Text="Salvar" />
-
-            <!--<Button
-         x:Name="BtnVoltar"
-         Margin="50"
-         Padding="20"
-         Clicked="BtnVoltar_Clicked"
-         Text="Voltar" />-->
+                Text="Salvar"
+                CornerRadius="20"
+                WidthRequest="200"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,20" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

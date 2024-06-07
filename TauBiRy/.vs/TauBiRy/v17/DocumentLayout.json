@@ -1,41 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\views\\booklistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\booklistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\bookeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\bookeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\tauani.degrandi\\documents\\github\\taubiry\\taubiry\\taubiry\\views\\categcreatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\categlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\categlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\categcreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\categcreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\booklistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\booklistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\bookcreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\bookcreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\bookeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\bookeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|c:\\users\\user\\source\\repos\\taubiry\\taubiry\\taubiry\\views\\categcreatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98C0CD21-B161-4F44-8181-1D793F73B643}|TauBiRy\\TauBiRy.csproj|solutionrelative:taubiry\\views\\categcreatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,62 +70,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 341,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml",
-              "RelativeDocumentMoniker": "TauBiRy\\App.xaml",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml",
-              "RelativeToolTip": "TauBiRy\\App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "BookEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookEditPage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookEditPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookEditPage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\BookEditPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-04T12:35:54.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml.cs",
-              "RelativeDocumentMoniker": "TauBiRy\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml.cs",
-              "RelativeToolTip": "TauBiRy\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T12:35:47.633Z"
+              "WhenOpened": "2024-06-07T01:42:28.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeToolTip": "TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2024-06-04T12:31:12.555Z"
+              "Title": "CategCreatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\CategCreatePage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\CategCreatePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T01:36:36.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\app.manifest",
-              "RelativeDocumentMoniker": "TauBiRy\\Platforms\\Windows\\app.manifest",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\app.manifest",
-              "RelativeToolTip": "TauBiRy\\Platforms\\Windows\\app.manifest",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2024-06-04T12:30:49.105Z"
+              "DocumentIndex": 5,
+              "Title": "BookListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookListPage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookListPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookListPage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\BookListPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-04T10:59:41.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CategListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategListPage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\CategListPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategListPage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\CategListPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswA4AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T01:33:04.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "TauBiRy\\Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\LoginPage.xaml",
               "RelativeToolTip": "TauBiRy\\Views\\LoginPage.xaml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -109,11 +135,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\RegisterPage.xaml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-04T10:59:41.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookDetailPage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookDetailPage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookDetailPage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\BookDetailPage.xaml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T01:27:08.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookCreatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookCreatePage.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookCreatePage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookCreatePage.xaml",
+              "RelativeToolTip": "TauBiRy\\Views\\BookCreatePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T01:28:31.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "TauBiRy\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "TauBiRy\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-06-04T12:30:49.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "TauBiRy\\Platforms\\Windows\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-06-04T12:31:12.555Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "BookEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookEditPage.xaml.cs",
+              "RelativeToolTip": "TauBiRy\\Views\\BookEditPage.xaml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T01:23:42.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CategCreatePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml.cs",
               "RelativeDocumentMoniker": "TauBiRy\\Views\\CategCreatePage.xaml.cs",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\CategCreatePage.xaml.cs",
               "RelativeToolTip": "TauBiRy\\Views\\CategCreatePage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,42 +219,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookListPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookListPage.xaml",
-              "RelativeDocumentMoniker": "TauBiRy\\Views\\BookListPage.xaml",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\BookListPage.xaml",
-              "RelativeToolTip": "TauBiRy\\Views\\BookListPage.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-04T10:59:41.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "TauBiRy\\Views\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Views\\RegisterPage.xaml",
-              "RelativeToolTip": "TauBiRy\\Views\\RegisterPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-04T10:59:41.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TauBiRy\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml.cs",
+              "RelativeToolTip": "TauBiRy\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:35:47.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml",
+              "RelativeDocumentMoniker": "TauBiRy\\App.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\App.xaml",
+              "RelativeToolTip": "TauBiRy\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-04T12:35:54.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\App.xaml.cs",
               "RelativeDocumentMoniker": "TauBiRy\\Platforms\\Windows\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\tauani.degrandi\\Documents\\GitHub\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TauBiRy\\TauBiRy\\TauBiRy\\Platforms\\Windows\\App.xaml.cs",
               "RelativeToolTip": "TauBiRy\\Platforms\\Windows\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T12:31:01.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T12:31:01.994Z"
             }
           ]
         }
