@@ -263,6 +263,8 @@ C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccat
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\user.png
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\passwords.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -275,9 +277,9 @@ C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccat
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\passwords.png
-C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\user.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\email.png
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\telefone.png
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
