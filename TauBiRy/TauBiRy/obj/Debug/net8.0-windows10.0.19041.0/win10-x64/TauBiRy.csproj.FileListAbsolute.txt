@@ -724,3 +724,5 @@ C:\Users\User\Source\Repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.
 C:\Users\User\Source\Repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\User\Source\Repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\User\Source\Repos\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png
+C:\Users\Tauani\Documents\GitHub\TauBiRy\TauBiRy\TauBiRy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\telefone.scale-100.png

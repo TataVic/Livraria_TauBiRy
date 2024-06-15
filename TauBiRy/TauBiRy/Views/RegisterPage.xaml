@@ -119,7 +119,7 @@
                 <Image
                     HeightRequest="20"
                     HorizontalOptions="Center"
-                    Source="phone.png"
+                    Source="telefone.png"
                     VerticalOptions="Center"
                     WidthRequest="20" />
             </Frame>
@@ -155,7 +155,7 @@
                 <Image
                     HeightRequest="20"
                     HorizontalOptions="Center"
-                    Source="password.png"
+                    Source="passwords.png"
                     VerticalOptions="Center"
                     WidthRequest="20" />
             </Frame>
